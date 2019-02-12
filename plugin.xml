@@ -12,8 +12,8 @@
                 <param name="ios-package" value="MyFatoorahPaymentPlug" />
             </feature>
         </config-file>
-        <framework src="src/ios/MFSDK.framework" embed="true" custom="true" /> 
-        <source-file src="src/ios/MFSDK.framework" target-dir="lib" embed = "true" framework="true" />
+        <framework src="MFSDK.framework" embed="true" custom="true" /> 
+        <source-file src="MFSDK.framework" target-dir="lib" embed = "true" framework="true" />
 
         <source-file src="src/ios/MyFatoorahPaymentPlug.m" />
     </platform>
