@@ -13,8 +13,7 @@
             </feature>
         </config-file>
         <framework src="MFSDK.framework" embed="true" custom="true" /> 
-        <source-file src="MFSDK.framework" target-dir="lib" embed = "true" framework="true" />
-
-        <source-file src="src/ios/MyFatoorahPaymentPlug.m" />
+        <!-- <source-file src="src/MFSDK.framework" target-dir="lib" embed = "true" framework="true" /> -->
+        <source-file src="src/MyFatoorahPaymentPlug.m" />
     </platform>
 </plugin>
