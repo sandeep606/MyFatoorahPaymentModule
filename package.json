@@ -1,0 +1,24 @@
+{
+  "name": "myfatoorahpaymentplug",
+  "version": "1.0.0",
+  "description": "Fatoorah payment gateway",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sandeep606/MyFatoorahPaymentModule.git"
+  },
+  "keywords": [
+    "Fatoorah",
+    "Payment",
+    "Ionic"
+  ],
+  "author": "unknown",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sandeep606/MyFatoorahPaymentModule/issues"
+  },
+  "homepage": "https://github.com/sandeep606/MyFatoorahPaymentModule#readme"
+}
