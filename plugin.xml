@@ -8,13 +8,12 @@
     </js-module>
     <platform name="ios">
         <config-file parent="/*" target="config.xml">
-            <feature name="MyFatoorahPaymentGateway">
-                <param name="ios-package" value="MyFatoorahPaymentGateway" />
+            <feature name="MyFatoorahPaymentPlug">
+                <param name="ios-package" value="MyFatoorahPaymentPlug" />
             </feature>
         </config-file>
         <framework src="src/ios/MFSDK.framework" embed="true" custom="true" /> 
         <source-file src="src/ios/MFSDK.framework" target-dir="lib" framework="true" />
-        <source-file src="src/ios/MyFatoorahPaymentGateway.m" />
-        
+        <source-file src="src/ios/MyFatoorahPaymentPlug.m" />
     </platform>
 </plugin>
