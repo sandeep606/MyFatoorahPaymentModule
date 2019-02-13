@@ -7,3 +7,7 @@ module.exports.presentPaymentModule = function (arg0, success, error) {
 module.exports.testMethod =  function (arg0, success, error) {
     exec(success, error, 'MyFatoorahPaymentPlug', 'testMethod', [arg0]);
 };
+
+module.exports.payNow = function (arg0, success, error) {
+    exec(success, error, 'MyFatoorahPaymentPlug', 'payNow', [arg0]);
+};
