@@ -4,7 +4,7 @@
     xmlns:android="http://schemas.android.com/apk/res/android">
     <name>MyFatoorahPaymentPlug</name>
     <js-module name="MyFatoorahPaymentPlug" src="www/MyFatoorahPaymentPlug.js">
-        <clobbers target="MyFatoorahPaymentPlug" />
+        <clobbers target="cordova.plugins.MyFatoorahPaymentPlug" />
     </js-module>
     <platform name="ios">
         <config-file parent="/*" target="config.xml">
