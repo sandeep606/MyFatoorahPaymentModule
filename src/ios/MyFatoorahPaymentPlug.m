@@ -8,6 +8,7 @@
 }
 
 - (void)presentPaymentModule:(CDVInvokedUrlCommand*)command;
+- (void)testMethod:(CDVInvokedUrlCommand*)command;
 @end
 
 @implementation MyFatoorahPaymentPlug
@@ -33,6 +34,15 @@
                                                                 
     CDVPluginResult* pluginResult = nil;
     pluginResult = [CDVPluginResult resultWithStatus:CDVCommandStatus_OK messageAsString:@"Added merchant account"];
+    [self.commandDelegate sendPluginResult:pluginResult callbackId:command.callbackId];
+}
+
+
+- (void)testMethod:(CDVInvokedUrlCommand*)command
+{
+                                                                
+    CDVPluginResult* pluginResult = nil;
+    pluginResult = [CDVPluginResult resultWithStatus:CDVCommandStatus_OK messageAsString:@"testMethod  account"];
     [self.commandDelegate sendPluginResult:pluginResult callbackId:command.callbackId];
 }
 
